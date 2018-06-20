@@ -1,12 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Tribute page</title>
-	<link rel="stylesheet" type="text/css" href="main.css">
+    <meta charset="UTF-8">
+    <title>Soichiro Honda tribute</title>
+    <link rel="stylesheet" type="text/css" href="dev.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Open+Sans" rel="stylesheet">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </head>
+
 <body>
-	<h1>Hello, I am a simple tribute page!</h1>
-	
+    <main id="main">
+        <div class="main__hero">
+            <div class="hero__content">
+                <h1 id="title" class="hero__title">Soichiro Honda</h1>
+                <p class="hero__text">...the last lord of Thunder...</p>
+            </div>
+        </div>
+        <div class="main__wrapper">
+            <div class="main__aside">
+                <div id="img-div" class="aside__picture">
+                    <img id="image" class="aside__picture--moto" src="img/honda__dreamD.jpg" alt="Honda Dream type D">
+                    <p id="img-caption"><strong>Honda Dream type D.</strong> Image by Wikipedia.</p>
+                </div>
+                <div id="img-div" class="aside__picture">
+                    <img id="image" class="aside__picture--monkey" src="img/honda__monkey.jpg" alt="Soichiro Honda">
+                    <p id="img-caption"><strong>Soichiro Honda.</strong> Image by Honda.</p>
+                </div>
+            </div>
+            <div id="tribute-info" class="main__content">
+                <h1 class="content__header">Early life</h1>
+                <p class="content__text">The first son of blacksmith Gihei Honda and his wife Mika, Soichiro Honda was born on November 17, 1906, in rural Iwata-gun, Japan. In 1922 he graduated from the Futamata Senior Elementary School. Honda had little tolerance for formal education and jumped at every opportunity he had to work with his true love: motors. Throughout his life Honda never forgot the impression that was made on him when he sighted his first automobile.</p>
+                <p class="content__text">After leaving school Honda began his career as an apprentice (a person who works to gain experience in a trade) auto repairman for Arto Shokai in Tokyo. In 1928 he returned to his hometown as a master mechanic and soon established a branch shop for the firm in Hamamatsu, Japan.</p>
+                <h1 class="content__header">Building an empire</h1>
+                <p class="content__text">During this time Honda also participated in auto races and became interested in cars and motorcycles. Soon he was experimenting with engines, and in 1928 he organized the Tohai Seiki Company to manufacture piston rings, some of which were sold to Toyota, a major Japanese car manufacturer.</p>
+                <p class="content__text">Honda's first attempts at the personal motor business came in the mid-1940s when he designed and manufactured a small engine that could be attached to a bicycle to create a motorbike. The venture proved a great success.</p>
+                <p class="content__text">Encouraged by his early success, in 1948 he organized the Honda Motor Company. The following year Honda manufactured a small motorcycle called the "Dream D" and prepared to enter the highly competitive Japanese market, which he did through effective advertising. Within a decade Honda was the leading motorcycle manufacturer in the world and had a larger share of the American motorcycle market than Toyota and Nissan (with its Datsun cars) had in automobiles.</p>
+                <p class="content__text">Now Soichiro Honda attracted press attention, and, unlike most Japanese businessmen, he loved it. A small but talkative man, he was the opposite of what westerners imagined Japanese businessmen to be. For example, he promoted executives on the basis of performance rather than age, an unusual practice at large Japanese firms. Honda continued racing autos and motorcycles, dressed casually, and took pride in"contenttaining his independence from the Japanese business establishment. In addition, Honda openly voiced his admiration of American business practices and way of life.</p>
+                <h1 class="content__header">Automobiles</h1>
+                <p class="content__text">This was at a time when the powerful Ministry of Trade and Industry (MITI) was trying to unite several small companies into a third large one to compete with Toyota and Nissan. MITI and the Department of Transportation tried to discourage Honda from adding to the number of companies, but he persisted. He won MITI's permission by coming out with a low-priced small sportscar, the S 500, which was different from anything produced by the other companies. He followed it up with other sports models. His company was still very small, producing only three thousand cars in 1966—half of what Toyota was turning out in a week.</p>
+                <p class="content__text">Honda introduced the Civic to the American market in 1972. It got thirty-nine miles per gallon (mpg) on the road and twenty-seven mpg in city driving, remarkably efficient for an automobile. The popularity of the Civic rose throughout the 1970s, and in 1980 Honda sold 375,000 cars in the American market—almost three times as many as Subaru and twice as many as Mazda, but still behind Toyota and Nissan. The reasons for this success were obvious: Honda combined high quality with efficiency and economy. But his small cars still appealed to a limited market.</p>
+                <h1 class="content__header">Transforming Honda</h1>
+                <p class="content__text">In the late 1970s and early 1980s Honda expanded his car company overseas. In 1979 he opened a motorcycle plant near Columbus, Ohio, and an auto plant followed soon after, prompting other Japanese companies to follow his lead. In the late 1970s Toyota and Nissan sold one-third of their cars to the United States, while Honda sold half of his in that market.</p>
+                <p class="content__text">Soichiro Honda did not directly supervise these introductions or the development of overseas plants in the United States and Europe. He resigned in 1973, but stayed at the company as "supreme adviser." In 1988 he became the first Japanese carmaker to be inducted into the Automobile Hall of Fame. Honda died of liver failure August 5, 1991, in a Tokyo hospital. Honda's rise from humble beginnings to a powerful and influential businessman is one of twentieth century's most inspirational stories.</p>
+                <h1 class="content__header">Additional Info</h1>
+                <p class="content__text">You can get more info on Soichiro Honda by visiting <a id="tribute-link" class="content__link" href="https://en.wikipedia.org/wiki/Soichiro_Honda" target="_blank">his page on Wikipedia</a> or <a id="tribute-link" class="content__link" href="http://world.honda.com/history/limitlessdreams/joyofmanufacturing/index.html" target="_blank">Honda's official website</a></p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__wrapper">
+            <p class="footer__text">"Design" and code by Artie Michaels
+                <a class="footer__icon" href="https://github.com/Happytoad42">
+                    <svg aria-labelledby="simpleicons-github-icon" width="24px" height="24px" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <title id="simpleicons-github-icon">GitHub icon</title>
+                        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                    </svg>
+                </a>
+            </p>
+        </div>
+    </footer>
 </body>
+
 </html>
